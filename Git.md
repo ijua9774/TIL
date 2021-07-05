@@ -116,3 +116,12 @@ $ git remote add <원격저장소 별칭> <주소>
 $ git remote add origin <주소>
 ```
 
+**다른 사람 git 가져오기 (git clone)**
+
+- 원하는 repository의 주소(https 주소)를 복사한다.
+- 원하는 폴더에서 bash를 실행해준다.
+
+```bash
+$ git clone <주소>
+```
+
