@@ -96,3 +96,23 @@ $ git push origin master
 
 - origin - 내가 설정한 원격저장소 이름 (임의)
 - master - 내가 설정한 브랜치 이름 (임의, **default**)
+
+
+
+## git 추가 명령어
+
+**원격저장소 연결하기**
+
+- git repository의 원격저장소와 연결한다.
+- git repository의 `Code > HTTPS주소`를 복사한다.
+
+```bash
+$ git remote add <원격저장소 별칭> <주소>
+```
+
+- 보통 다음과 같이 사용한다.
+
+```bash
+$ git remote add origin <주소>
+```
+
